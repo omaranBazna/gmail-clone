@@ -1,0 +1,6 @@
+.header-left > img{
+    Object-fit:contain;
+    height:80px;
+    margin-left:5px;
+    
+}
