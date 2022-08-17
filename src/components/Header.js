@@ -5,8 +5,6 @@ import { IconButton } from "@mui/material";
 const Header = () => {
   return (
     <div className="header">
-      <h2>This is a header</h2>
-
       <div className="header-left">
         <IconButton>
           <MenuIcon />
