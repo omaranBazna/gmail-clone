@@ -6,6 +6,7 @@ import SearchIcon from "@mui/icons-material/Search";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 import AppsIcon from "@mui/icons-material/Apps";
 import NotificationsIcon from "@mui/icons-material/Notifications";
+import { Avatar } from "@mui/material";
 const Header = () => {
   return (
     <div className="header">
@@ -28,6 +29,7 @@ const Header = () => {
         <IconButton>
           <NotificationsIcon />
         </IconButton>
+        <Avatar src="" title="" />
       </div>
     </div>
   );
