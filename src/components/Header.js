@@ -5,6 +5,7 @@ import { IconButton } from "@mui/material";
 import SearchIcon from "@mui/icons-material/Search";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 import AppsIcon from "@mui/icons-material/Apps";
+import NotificationsIcon from "@mui/icons-material/Notifications";
 const Header = () => {
   return (
     <div className="header">
@@ -24,6 +25,9 @@ const Header = () => {
       </div>
       <div className="header-right">
         <AppsIcon />
+        <IconButton>
+          <NotificationsIcon />
+        </IconButton>
       </div>
     </div>
   );
