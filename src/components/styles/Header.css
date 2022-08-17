@@ -33,3 +33,7 @@
     padding:10px;
     background-color:transparent;
 }
+.header-right{
+    display:flex;
+    align-items: center;
+}
