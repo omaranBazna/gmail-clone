@@ -14,9 +14,21 @@
     margin-left:10px;
     font-size:14px;
     font-weight:400;
-    
+
 }
 .sidebar-option > p{
     display:none;
     font-weight:300px;
+}
+.sidebar-option:hover > p{
+    display:inline;
+
+}
+
+
+.sidebar-option:hover,.sidebar-option:hover > p,
+.sidebar-option:hover>h3{
+    background-color:#fcecec ;
+    color:rgb(225, 73, 73);
+    font-weight:800 !important;
 }
