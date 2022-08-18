@@ -3,6 +3,7 @@ import React from "react";
 import { Button } from "@mui/material";
 import { Add } from "@mui/icons-material";
 import InboxIcon from "@mui/icons-material/Inbox";
+import SidebarOption from "./SidebarOption";
 const Sidebar = () => {
   return (
     <div className="sidebar">
