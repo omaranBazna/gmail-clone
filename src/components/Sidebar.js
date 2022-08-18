@@ -5,7 +5,9 @@ import { Add } from "@mui/icons-material";
 const Sidebar = () => {
   return (
     <div className="sidebar">
-      <Button startIcon={<Add font-size="large" />}>Compose</Button>
+      <Button startIcon={<Add font-size="large" />} className="sidebar-compose">
+        Compose
+      </Button>
     </div>
   );
 };
