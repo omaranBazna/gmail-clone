@@ -32,3 +32,11 @@
     color:rgb(225, 73, 73);
     font-weight:800 !important;
 }
+.sidebar-option-active,.sidebar-option-active > p ,.sidebar-option-active >h3{
+    background-color:#fcecec ;
+    color:rgb(225, 73, 73);
+    font-weight:800 !important;
+}
+.sidebar-option-active > p{
+    display:inline;
+}
