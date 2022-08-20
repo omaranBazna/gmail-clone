@@ -1,6 +1,8 @@
 import React from "react";
-
+import ArrowDownwardIcon from "@mui/icons-material/ArrowDownward";
 import { IconButton, Checkbox } from "@mui/material";
+import RedoIcon from "@mui/icons-material/Redo";
+import UndoIcon from "@mui/icons-material/Undo";
 import "./styles/emailList.css";
 const EmailList = () => {
   return (
@@ -8,6 +10,15 @@ const EmailList = () => {
       <div className="emailList-settings">
         <div className="emailList-setting-left">
           <Checkbox />
+          <IconButton>
+            <ArrowDownwardIcon />
+          </IconButton>
+          <IconButton>
+            <RedoIcon />
+          </IconButton>
+          <IconButton>
+            <UndoIcon />
+          </IconButton>
         </div>
       </div>
     </div>
