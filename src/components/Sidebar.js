@@ -1,6 +1,6 @@
 import "./styles/Sidebar.css";
 import React from "react";
-import { Button } from "@mui/material";
+import { Button, IconButton } from "@mui/material";
 import { Add } from "@mui/icons-material";
 import InboxIcon from "@mui/icons-material/Inbox";
 import StarIcon from "@mui/icons-material/Inbox";
