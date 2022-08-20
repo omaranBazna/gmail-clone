@@ -1,0 +1,8 @@
+.emailList{
+    flex:1;
+    overflow:scroll;
+}
+.emailList-settings{
+    display:flex;
+    justify-content: space-between;
+}
