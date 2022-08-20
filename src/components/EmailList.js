@@ -3,6 +3,7 @@ import ArrowDownwardIcon from "@mui/icons-material/ArrowDownward";
 import { IconButton, Checkbox } from "@mui/material";
 import RedoIcon from "@mui/icons-material/Redo";
 import UndoIcon from "@mui/icons-material/Undo";
+import MoreVertIcon from "@mui/icons-material/MoreVert";
 import "./styles/emailList.css";
 const EmailList = () => {
   return (
@@ -17,7 +18,7 @@ const EmailList = () => {
             <RedoIcon />
           </IconButton>
           <IconButton>
-            <UndoIcon />
+            <MoreVertIcon />
           </IconButton>
         </div>
       </div>
