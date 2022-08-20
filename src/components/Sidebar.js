@@ -9,6 +9,9 @@ import AccessTimeIcon from "@mui/icons-material/AccessTime";
 import NearMeIcon from "@mui/icons-material/NearMe";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import NoteIcon from "@mui/icons-material/Note";
+import PersonIcon from "@mui/icons-material/Person";
+import DuoIcon from "@mui/icons-material/Duo";
+import PhoneIcon from "@mui/icons-material/Phone";
 import SidebarOption from "./SidebarOption";
 const Sidebar = () => {
   return (
