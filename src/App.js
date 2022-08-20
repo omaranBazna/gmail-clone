@@ -7,6 +7,10 @@ function App() {
     <div className="App">
       <Header />
       <Sidebar />
+      <Routes>
+        <Route path="/" element={} />
+         <Route path="/mail" element={} />
+      </Routes>
     </div>
   );
 }
