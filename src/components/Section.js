@@ -2,7 +2,7 @@ import "./styles/section.css";
 import React from "react";
 
 const Section = () => {
-  return <div></div>;
+  return <div className="section"></div>;
 };
 
 export default Section;
