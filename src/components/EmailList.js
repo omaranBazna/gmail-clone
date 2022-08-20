@@ -1,7 +1,13 @@
 import React from "react";
-import "./style/email-list.css";
+import "./styles/emailList.css";
 const EmailList = () => {
-  return <div></div>;
+  return (
+    <div className="emailList">
+      <div className="emailList-settings">
+        <div className="emailList-setting-left"></div>
+      </div>
+    </div>
+  );
 };
 
 export default EmailList;
