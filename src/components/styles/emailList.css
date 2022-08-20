@@ -5,4 +5,8 @@
 .emailList-settings{
     display:flex;
     justify-content: space-between;
+    position:sticky;
+    top:0px;
+    border:1px solid whitesmoke;
+    background:white;
 }
