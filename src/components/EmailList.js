@@ -40,6 +40,7 @@ const EmailList = () => {
             <SettingsIcon />
           </IconButton>
         </div>
+        <div className="emailList-section"></div>
       </div>
     </div>
   );
