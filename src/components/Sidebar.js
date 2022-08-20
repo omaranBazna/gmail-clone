@@ -28,7 +28,17 @@ const Sidebar = () => {
       <SidebarOption Icon={NoteIcon} title="Drafts" number={11} />
       <SidebarOption Icon={ExpandMoreIcon} title="More" />
       <div className="sidebar-footer">
-        <div className="sidebar-footer-icons"></div>
+        <div className="sidebar-footer-icons">
+          <IconButton>
+            <PersonIcon />
+          </IconButton>
+          <IconButton>
+            <DuoIcon />
+          </IconButton>
+          <IconButton>
+            <PhoneIcon />
+          </IconButton>
+        </div>
       </div>
     </div>
   );
