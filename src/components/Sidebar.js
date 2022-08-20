@@ -23,7 +23,7 @@ const Sidebar = () => {
       <SidebarOption Icon={LabelImportantIcon} title="Important" number={23} />
       <SidebarOption Icon={NearMeIcon} title="Sent" number={12} />
       <SidebarOption Icon={NoteIcon} title="Drafts" number={11} />
-      <SidebarOption Icon={ExpandMoreIcon} title="More" number={0} />
+      <SidebarOption Icon={ExpandMoreIcon} title="More" />
     </div>
   );
 };
