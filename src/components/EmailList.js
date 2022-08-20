@@ -7,7 +7,9 @@ import MoreVertIcon from "@mui/icons-material/MoreVert";
 import SettingsIcon from "@mui/icons-material/Settings";
 import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
+import KeyboardHideIcon from "@mui/icons-material/KeyboardHide";
 import "./styles/emailList.css";
+import { ChevronRight } from "@mui/icons-material";
 const EmailList = () => {
   return (
     <div className="emailList">
@@ -24,7 +26,20 @@ const EmailList = () => {
             <MoreVertIcon />
           </IconButton>
         </div>
-        <div className="emailList-setting-right"></div>
+        <div className="emailList-setting-right">
+          <IconButton>
+            <ChevronLeftIcon />
+          </IconButton>
+          <IconButton>
+            <ChevronRightIcon />
+          </IconButton>
+          <IconButton>
+            <KeyboardHideIcon />
+          </IconButton>
+          <IconButton>
+            <SettingsIcon />
+          </IconButton>
+        </div>
       </div>
     </div>
   );
