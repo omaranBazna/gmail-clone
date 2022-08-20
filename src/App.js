@@ -8,11 +8,13 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Sidebar />
-      <Routes>
-        <Route path="/" element={<EmailList />} />
-        <Route path="/mail" element={<Mail />} />
-      </Routes>
+      <div className="app-body">
+        <Sidebar />
+        <Routes>
+          <Route path="/" element={<EmailList />} />
+          <Route path="/mail" element={<Mail />} />
+        </Routes>
+      </div>
     </div>
   );
 }
