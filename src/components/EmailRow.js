@@ -23,7 +23,7 @@ const EmailRow = ({ id, title, subject, description, time }) => {
           <span className="email-row-description">{description}</span>
         </h4>
       </div>
-      <div className="email-row-description">{time}</div>
+      <div className="email-row-time">{time}</div>
     </div>
   );
 };
