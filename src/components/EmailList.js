@@ -50,6 +50,7 @@ const EmailList = () => {
         <Section Icon={PeopleAltIcon} title="Social" color="blue" />
         <Section Icon={LocalOfferIcon} title="Promotions" color="green" />
       </div>
+      <div className="emailList-list"></div>
     </div>
   );
 };
