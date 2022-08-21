@@ -14,6 +14,7 @@ import InboxIcon from "@mui/icons-material/Inbox";
 import PeopleAltIcon from "@mui/icons-material/PeopleAlt";
 import LocalOfferIcon from "@mui/icons-material/LocalOffer";
 import Section from "./Section";
+import EmailRow from "./EmailRow";
 const EmailList = () => {
   return (
     <div className="emailList">
@@ -50,7 +51,9 @@ const EmailList = () => {
         <Section Icon={PeopleAltIcon} title="Social" color="blue" />
         <Section Icon={LocalOfferIcon} title="Promotions" color="green" />
       </div>
-      <div className="emailList-list"></div>
+      <div className="emailList-list">
+        <EmailRow title="test" subject="test" description="test" time="test" />
+      </div>
     </div>
   );
 };

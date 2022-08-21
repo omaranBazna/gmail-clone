@@ -1,6 +1,5 @@
 import "./styles/email-row.css";
-import { IconButton } from "@mui/material";
-import Checkbox from "@mui/material";
+import { IconButton, Checkbox } from "@mui/material";
 import StarBorderOutlinedIcon from "@mui/icons-material/StarBorderOutlined";
 import LabelImportantOutlinedIcon from "@mui/icons-material/LabelImportantOutlined";
 import React from "react";
