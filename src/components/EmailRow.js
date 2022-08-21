@@ -1,7 +1,7 @@
 import "./styles/email-row.css";
 import React from "react";
 
-const EmailRow = () => {
+const EmailRow = ({ id, title, subject, description, time }) => {
   return <div className="email-row"></div>;
 };
 
