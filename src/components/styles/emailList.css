@@ -13,3 +13,14 @@
     padding-right:10px;
     
 }
+
+.emailList-sections{
+    position:sticky;
+    top:0px;
+    display:flex;
+    background-color:white;
+    border-bottom:1px solid whitesmoke;
+    z-index:999;
+
+
+}
