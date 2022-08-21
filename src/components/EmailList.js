@@ -11,6 +11,8 @@ import KeyboardHideIcon from "@mui/icons-material/KeyboardHide";
 import "./styles/emailList.css";
 import { ChevronRight } from "@mui/icons-material";
 import InboxIcon from "@mui/icons-material/Inbox";
+import PeopleAltIcon from "@mui/icons-material/PeopleAlt";
+import LocalOfferIcon from "@mui/icons-material/LocalOffer";
 import Section from "./Section";
 const EmailList = () => {
   return (
@@ -45,6 +47,8 @@ const EmailList = () => {
       </div>{" "}
       <div className="emailList-sections">
         <Section Icon={InboxIcon} title="primary" color="red" selected />
+        <Section Icon={PeopleAltIcon} title="Social" color="blue" />
+        <Section Icon={LocalOfferIcon} title="Promotions" color="green" />
       </div>
     </div>
   );
