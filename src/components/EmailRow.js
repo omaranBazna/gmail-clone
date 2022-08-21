@@ -10,6 +10,7 @@ const EmailRow = ({ id, title, subject, description, time }) => {
     <div
       className="email-row"
       onClick={() => {
+        console.log("navigate");
         navigate("../mail", { replace: true });
       }}
     >
