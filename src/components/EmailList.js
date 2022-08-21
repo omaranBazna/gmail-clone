@@ -53,6 +53,9 @@ const EmailList = () => {
       </div>
       <div className="emailList-list">
         <EmailRow title="test" subject="test" description="test" time="test" />
+
+        <EmailRow title="test" subject="test" description="test" time="test" />
+        <EmailRow title="test" subject="test" description="test" time="test" />
       </div>
     </div>
   );
