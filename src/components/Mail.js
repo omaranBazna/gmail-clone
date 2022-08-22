@@ -10,12 +10,18 @@ import EmailIcon from "@mui/icons-material/Email";
 import WatchLaterIcon from "@mui/icons-material/WatchLater";
 import LabelImportantIcon from "@mui/icons-material/LabelImportant";
 import MoreVertIcon from "@mui/icons-material/MoreVert";
+import { useNavigate } from "react-router-dom";
 const Mail = () => {
+  const navigate = useNavigate();
   return (
     <div>
       <div className="mail-tools">
         <div className="mail-tools-left">
-          <IconButton>
+          <IconButton
+            onClick={() => {
+              navigate("../", { replace: true });
+            }}
+          >
             <ArrowBackIcon />
           </IconButton>
           <IconButton>
