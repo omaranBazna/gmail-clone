@@ -2,7 +2,7 @@ import "./App.css";
 import Header from "./components/Header";
 import Sidebar from "./components/Sidebar";
 import { Routes, Route } from "react-router-dom";
-import { Mail } from "@mui/icons-material";
+import Mail from "./components/Mail";
 import EmailList from "./components/EmailList";
 function App() {
   return (
