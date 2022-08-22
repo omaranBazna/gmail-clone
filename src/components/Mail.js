@@ -67,7 +67,7 @@ const Mail = () => {
           <h2>Subject</h2>
           <LabelImportantIcon className="mail-important" />
           <p>Title</p>
-          <p>10p.m.</p>
+          <p className="mail-time">10p.m.</p>
         </div>
 
         <div className="mail-message">This is the message</div>
