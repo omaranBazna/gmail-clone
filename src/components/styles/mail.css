@@ -24,3 +24,17 @@
     box-shadow:0px 5px 7px 0px rgba(0,0,0,0.24);
 
 }
+.mail-body-header{
+    display:flex;
+    align-items: center;
+    border-bottom:1px solid whitesmoke;
+    padding:20px;
+    position:relative;
+}
+.mail-important{
+    color:rgb(245, 245, 15) !important;
+}
+.mail-body-header >h2{
+font-weight:400;
+margin-right:20px;
+}
