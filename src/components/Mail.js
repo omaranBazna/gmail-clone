@@ -11,6 +11,9 @@ import WatchLaterIcon from "@mui/icons-material/WatchLater";
 import LabelImportantIcon from "@mui/icons-material/LabelImportant";
 import MoreVertIcon from "@mui/icons-material/MoreVert";
 import { useNavigate } from "react-router-dom";
+import UnfoldMoreIcon from "@mui/icons-material/UnfoldMore";
+import PrintIcon from "@mui/icons-material/Print";
+import ExitToAppIcon from "@mui/icons-material/ExitToApp";
 const Mail = () => {
   const navigate = useNavigate();
   return (
@@ -47,7 +50,17 @@ const Mail = () => {
             <MoreVertIcon />
           </IconButton>
         </div>
-        <div className="mail-tools-right"></div>
+        <div className="mail-tools-right">
+          <IconButton>
+            <UnfoldMoreIcon />
+          </IconButton>
+          <IconButton>
+            <PrintIcon />
+          </IconButton>
+          <IconButton>
+            <ExitToAppIcon />
+          </IconButton>
+        </div>
       </div>
     </div>
   );
