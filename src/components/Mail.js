@@ -17,7 +17,7 @@ import ExitToAppIcon from "@mui/icons-material/ExitToApp";
 const Mail = () => {
   const navigate = useNavigate();
   return (
-    <div>
+    <div className="mail">
       <div className="mail-tools">
         <div className="mail-tools-left">
           <IconButton
