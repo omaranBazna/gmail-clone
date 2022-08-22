@@ -70,7 +70,9 @@ const Mail = () => {
           <p className="mail-time">10p.m.</p>
         </div>
 
-        <div className="mail-message">This is the message</div>
+        <div className="mail-message">
+          <p>This is the message</p>
+        </div>
       </div>
     </div>
   );
