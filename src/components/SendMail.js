@@ -31,6 +31,7 @@ const SendMail = () => {
       </div>
       <form onSubmit={handleSubmit(onSubmit)}>
         <input
+          type="email"
           placeholder="to"
           type="text"
           {...register("to", { required: true })}
