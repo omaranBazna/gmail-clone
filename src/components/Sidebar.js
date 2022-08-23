@@ -14,10 +14,19 @@ import DuoIcon from "@mui/icons-material/Duo";
 import PhoneIcon from "@mui/icons-material/Phone";
 import SidebarOption from "./SidebarOption";
 import Section from "./Section";
+import { OpenSendMessage } from "../app/features/mailSlice";
+import { useDispatch } from "react-redux/es/exports";
 const Sidebar = () => {
+  const dispatch = useDispatch();
   return (
     <div className="sidebar">
-      <Button startIcon={<Add font-size="large" />} className="sidebar-compose">
+      <Button
+        startIcon={<Add font-size="large" />}
+        className="sidebar-compose"
+        onClick={() => {
+          dispatch(OpenSendMessage());
+        }}
+      >
         Compose
       </Button>
 
