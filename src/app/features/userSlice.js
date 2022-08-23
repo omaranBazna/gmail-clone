@@ -10,14 +10,14 @@ export const userSlice = createSlice({
   initialState,
   reducers: {
     login: (state, action) => {
-      state.user.userEmail = action.payload.userEmail;
-      state.user.userName = action.payload.displayName;
-      state.user.userPhoto = action.payload.photoURL;
+      state.userEmail = action.payload.userEmail;
+      state.userName = action.payload.displayName;
+      state.userPhoto = action.payload.photoURL;
     },
     logout: (state) => {
-      state.user.userEmail = "";
-      state.user.userName = "";
-      state.user.userPhoto = "";
+      state.userEmail = "";
+      state.userName = "";
+      state.userPhoto = "";
     },
   },
 });
