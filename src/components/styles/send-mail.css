@@ -33,7 +33,7 @@
     display:flex;
     flex:1;
     flex-direction:column;
-   background:white;
+
 }
 
 .send-mail >form > input {
@@ -54,5 +54,6 @@
     color:red;
     text-align:right;
     padding:2px;
+    margin:0;
     
 }
