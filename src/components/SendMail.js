@@ -10,9 +10,9 @@ const SendMail = () => {
         <CloseIcon className="send-mail-close" />
       </div>
       <form>
-        <input type="text" />
-        <input type="text" />
-        <input type="text" />
+        <input placeholder="to" type="text" />
+        <input placeholder="subject" type="text" />
+        <input placeholder="Message..." type="text" />
         <div className="send-mail-options">
           <Button className="send-mail-btn">Send</Button>
         </div>
