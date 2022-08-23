@@ -12,7 +12,11 @@ const SendMail = () => {
       <form>
         <input placeholder="to" type="text" />
         <input placeholder="subject" type="text" />
-        <input placeholder="Message..." type="text" />
+        <input
+          placeholder="Message..."
+          type="text"
+          className="send-mail-message"
+        />
         <div className="send-mail-options">
           <Button className="send-mail-btn">Send</Button>
         </div>
