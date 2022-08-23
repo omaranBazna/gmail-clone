@@ -14,7 +14,7 @@ const SendMail = () => {
           <input type="text" />
           <input type="text" />
           <div className="send-mail-options">
-            <Button>Send</Button>
+            <Button className="send-mail-btn">Send</Button>
           </div>
         </form>
       </div>

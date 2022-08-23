@@ -17,3 +17,9 @@
     align-items:center;
     color:grey;
 }
+
+.send-mail-btn{
+    background-color:#3879ed !important;
+    text-transform: capitalize !important;
+    margin:15px !important;
+}
