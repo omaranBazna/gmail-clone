@@ -17,4 +17,5 @@ export const mailSlice = createSlice({
 });
 
 export const mailReducer = mailSlice.reducer;
+
 export const { OpenSendMessage, CloseSendMessage } = mailSlice.actions;
