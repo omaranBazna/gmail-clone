@@ -2,6 +2,8 @@ import "./styles/send-mail.css";
 import React from "react";
 import CloseIcon from "@mui/icons-material/Close";
 import { Button } from "@mui/material";
+
+import { useForm } from "react-hook-form";
 const SendMail = () => {
   return (
     <div className="send-mail">

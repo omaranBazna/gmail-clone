@@ -29,6 +29,7 @@
     display:flex;
     flex:1;
     flex-direction:column;
+
 }
 
 .send-mail >form > input {
@@ -42,5 +43,5 @@
 
 .send-mail-message{
 
-    flex:1;
+    flex:2;
 }
