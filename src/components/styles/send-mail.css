@@ -30,3 +30,11 @@
     flex:1;
     flex-direction:column;
 }
+
+.send-mail >form > input {
+    height:30px;
+    padding:10px;
+    border:none;
+    border-bottom :1px solid whitesmoke;
+    outline:none;
+}
