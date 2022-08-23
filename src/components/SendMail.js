@@ -8,16 +8,15 @@ const SendMail = () => {
       <div className="send-mail-header">
         <h3>New Message</h3>
         <CloseIcon className="send-mail-close" />
-
-        <form>
-          <input type="text" />
-          <input type="text" />
-          <input type="text" />
-          <div className="send-mail-options">
-            <Button className="send-mail-btn">Send</Button>
-          </div>
-        </form>
       </div>
+      <form>
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <div className="send-mail-options">
+          <Button className="send-mail-btn">Send</Button>
+        </div>
+      </form>
     </div>
   );
 };

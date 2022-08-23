@@ -24,3 +24,9 @@
     margin:15px !important;
     color:white !important;
 }
+
+.send-mail >form {
+    display:flex;
+    flex:1;
+    flex-direction:column;
+}
