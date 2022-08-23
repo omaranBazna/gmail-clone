@@ -45,3 +45,9 @@
 
     flex:2;
 }
+.send-mail-error{
+    background:white;
+    color:red;
+    text-align:right;
+    padding:2px;
+}
