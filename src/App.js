@@ -5,9 +5,8 @@ import { Routes, Route } from "react-router-dom";
 import Mail from "./components/Mail";
 import EmailList from "./components/EmailList";
 import { useSelector } from "react-redux";
-
+import SendMail from "./components/SendMail";
 function App() {
-  const sendMail = useSelector((state) => state.mail.sendMessage_isOpen);
   return (
     <div className="App">
       <Header />
@@ -18,7 +17,7 @@ function App() {
           <Route path="/mail" element={<Mail />} />
         </Routes>
 
-        {sendMail && <SendMail />}
+        <SendMail />
       </div>
     </div>
   );
