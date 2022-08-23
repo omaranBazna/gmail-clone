@@ -9,3 +9,11 @@
     border-top-left-radius: 10px;
     border-top-right-radius:10px;
 }
+
+.send-mail-header{
+    padding:30px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    color:grey;
+}
