@@ -8,10 +8,14 @@
     max-width:500px;
     border-top-left-radius: 10px;
     border-top-right-radius:10px;
+    display:flex;
+    flex-direction: column;
 }
 
 .send-mail-header{
-    padding:30px;
+    padding:3px 30px;
+    flex:0.1;
+    font-size:14px;
     display:flex;
     justify-content:space-between;
     align-items:center;
@@ -29,7 +33,7 @@
     display:flex;
     flex:1;
     flex-direction:column;
-
+   background:white;
 }
 
 .send-mail >form > input {
@@ -50,4 +54,5 @@
     color:red;
     text-align:right;
     padding:2px;
+    
 }
