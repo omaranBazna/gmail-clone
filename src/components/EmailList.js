@@ -16,6 +16,8 @@ import LocalOfferIcon from "@mui/icons-material/LocalOffer";
 import Section from "./Section";
 import EmailRow from "./EmailRow";
 const EmailList = () => {
+  const [email, setEmail] = useState([]);
+
   return (
     <div className="emailList">
       <div className="emailList-settings">
