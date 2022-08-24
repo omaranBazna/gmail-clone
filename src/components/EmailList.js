@@ -54,10 +54,6 @@ const EmailList = () => {
         <Section Icon={LocalOfferIcon} title="Promotions" color="green" />
       </div>
       <div className="emailList-list">
-        <EmailRow title="test" subject="test" description="test" time="test" />
-
-        <EmailRow title="test" subject="test" description="test" time="test" />
-
         {email.map((el) => {
           <EmailRow
             title={el.to}
