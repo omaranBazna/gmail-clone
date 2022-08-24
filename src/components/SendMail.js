@@ -18,9 +18,9 @@ const SendMail = () => {
   const colRef = collection(db, "messages");
   const onSubmit = (data) => {
     addDoc(colRef, {
-      sender: "omaran",
-      reciever: "bazna",
-      message: "hello",
+      to: data.to,
+      subject: data.subject,
+      message: data.message,
     })
       .then((res) => {
         console.log(res);
