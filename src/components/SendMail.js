@@ -48,7 +48,6 @@ const SendMail = () => {
         <input
           type="email"
           placeholder="to"
-          type="text"
           {...register("to", { required: true })}
         />
         {errors.to && <p className="send-mail-error">Required</p>}
