@@ -8,16 +8,26 @@ import { useForm } from "react-hook-form";
 import { useDispatch } from "react-redux/es/hooks/useDispatch";
 import { CloseSendMessage } from "../app/features/mailSlice";
 import { db } from "../firebase";
-import { collection } from "firebase/firestore";
+import { collection, addDoc } from "firebase/firestore";
 const SendMail = () => {
   const {
     register,
     handleSubmit,
     formState: { errors },
   } = useForm();
+  const colRef = collection(db, "messages");
   const onSubmit = (data) => {
-    console.log(data);
-    console.log(errors);
+    addDoc(colRef, {
+      sender: "omaran",
+      reciever: "bazna",
+      message: "hello",
+    })
+      .then((res) => {
+        console.log(res);
+      })
+      .catch((e) => {
+        console.log(e);
+      });
   };
   const dispatch = useDispatch();
   return (
