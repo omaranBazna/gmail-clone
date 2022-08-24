@@ -17,9 +17,12 @@ import Section from "./Section";
 import EmailRow from "./EmailRow";
 
 import { useEffect } from "react";
+import { db } from "../firebase";
+import { onSnapshot, query, orderBy } from "firebase/firestore";
 const EmailList = () => {
   const [email, setEmail] = useState([]);
 
+  useEffect(() => {}, []);
   return (
     <div className="emailList">
       <div className="emailList-settings">
