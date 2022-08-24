@@ -8,6 +8,7 @@ import { useForm } from "react-hook-form";
 import { useDispatch } from "react-redux/es/hooks/useDispatch";
 import { CloseSendMessage } from "../app/features/mailSlice";
 import { db } from "../firebase";
+import { collection } from "firebase/firestore";
 const SendMail = () => {
   const {
     register,
