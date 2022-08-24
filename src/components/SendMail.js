@@ -8,7 +8,7 @@ import { useForm } from "react-hook-form";
 import { useDispatch } from "react-redux/es/hooks/useDispatch";
 import { CloseSendMessage } from "../app/features/mailSlice";
 import { db } from "../firebase";
-import { collection, addDoc } from "firebase/firestore";
+import { collection, addDoc, serverTimestamp } from "firebase/firestore";
 const SendMail = () => {
   const {
     register,
@@ -21,6 +21,7 @@ const SendMail = () => {
       to: data.to,
       subject: data.subject,
       message: data.message,
+      timestamp: serverTimestamp(),
     })
       .then((res) => {
         console.log(res);
