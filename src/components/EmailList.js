@@ -16,7 +16,7 @@ import LocalOfferIcon from "@mui/icons-material/LocalOffer";
 import Section from "./Section";
 import EmailRow from "./EmailRow";
 
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { db } from "../firebase";
 import { onSnapshot, query, collection, orderBy } from "firebase/firestore";
 const EmailList = () => {
