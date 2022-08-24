@@ -57,7 +57,15 @@ const EmailList = () => {
         <EmailRow title="test" subject="test" description="test" time="test" />
 
         <EmailRow title="test" subject="test" description="test" time="test" />
-        <EmailRow title="test" subject="test" description="test" time="test" />
+
+        {email.map((el) => {
+          <EmailRow
+            title={el.to}
+            subject={el.subject}
+            description={el.subject}
+            time={el.timestamp}
+          />;
+        })}
       </div>
     </div>
   );
