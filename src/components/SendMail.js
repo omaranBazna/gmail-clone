@@ -16,7 +16,7 @@ const SendMail = () => {
     formState: { errors },
   } = useForm();
   const dispatch = useDispatch();
-  const colRef = collection(db, "messages");
+  const colRef = collection(db, "emails");
   const onSubmit = (data) => {
     addDoc(colRef, {
       to: data.to,
