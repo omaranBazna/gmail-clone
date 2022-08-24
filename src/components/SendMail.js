@@ -15,6 +15,7 @@ const SendMail = () => {
     handleSubmit,
     formState: { errors },
   } = useForm();
+  const dispatch = useDispatch();
   const colRef = collection(db, "messages");
   const onSubmit = (data) => {
     addDoc(colRef, {
@@ -29,8 +30,9 @@ const SendMail = () => {
       .catch((e) => {
         console.log(e);
       });
+    dispatch(CloseSendMessage());
   };
-  const dispatch = useDispatch();
+
   return (
     <div className="send-mail">
       <div className="send-mail-header">
