@@ -15,6 +15,8 @@ import PeopleAltIcon from "@mui/icons-material/PeopleAlt";
 import LocalOfferIcon from "@mui/icons-material/LocalOffer";
 import Section from "./Section";
 import EmailRow from "./EmailRow";
+
+import { useEffect } from "react";
 const EmailList = () => {
   const [email, setEmail] = useState([]);
 
