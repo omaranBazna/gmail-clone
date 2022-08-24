@@ -2,14 +2,14 @@ import React from "react";
 import ArrowDownwardIcon from "@mui/icons-material/ArrowDownward";
 import { IconButton, Checkbox } from "@mui/material";
 import RedoIcon from "@mui/icons-material/Redo";
-import UndoIcon from "@mui/icons-material/Undo";
+
 import MoreVertIcon from "@mui/icons-material/MoreVert";
 import SettingsIcon from "@mui/icons-material/Settings";
 import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import KeyboardHideIcon from "@mui/icons-material/KeyboardHide";
 import "./styles/emailList.css";
-import { ChevronRight } from "@mui/icons-material";
+
 import InboxIcon from "@mui/icons-material/Inbox";
 import PeopleAltIcon from "@mui/icons-material/PeopleAlt";
 import LocalOfferIcon from "@mui/icons-material/LocalOffer";
