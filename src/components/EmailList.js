@@ -18,11 +18,21 @@ import EmailRow from "./EmailRow";
 
 import { useEffect } from "react";
 import { db } from "../firebase";
-import { onSnapshot, query, orderBy } from "firebase/firestore";
+import { onSnapshot, query, collection, orderBy } from "firebase/firestore";
 const EmailList = () => {
   const [email, setEmail] = useState([]);
 
-  useEffect(() => {}, []);
+  useEffect(() => {
+    const collectionRef = collection(db, "emails");
+    const queryRef = query(collectionRef, orderBy("timestamp"));
+    onSnapshot(queryRef)
+      .then((result) => {
+        console.log(result);
+      })
+      .catch((e) => {
+        console.log(e);
+      });
+  }, []);
   return (
     <div className="emailList">
       <div className="emailList-settings">
