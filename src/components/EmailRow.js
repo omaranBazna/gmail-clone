@@ -16,7 +16,7 @@ const EmailRow = ({ id, title, subject, description, time }) => {
     <div
       className="email-row"
       onClick={() => {
-        console.log("navigate");
+        openMail();
         navigate("../mail", { replace: false });
       }}
     >
