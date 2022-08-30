@@ -26,17 +26,22 @@ import {
   doc,
 } from "firebase/firestore";
 const EmailList = () => {
-  const [email, setEmail] = useState([]);
+  const [emailL, setEmail] = useState([
+    { to: "hello", subject: "subject", message: "message" },
+  ]);
 
   useEffect(() => {
     const collectionRef = collection(db, "emails");
     const queryRef = query(collectionRef, orderBy("timestamp"));
-
+    const result = [];
     onSnapshot(queryRef, (querySnapshot) => {
       querySnapshot.forEach((doc) => {
-        console.log("yes");
+        result.push(doc.data());
       });
     });
+    setEmail([{ to: "hello", subject: "subject", message: "message" }]);
+    console.log(result);
+    console.log(emailL);
   }, []);
   return (
     <div className="emailList">
@@ -74,7 +79,7 @@ const EmailList = () => {
         <Section Icon={LocalOfferIcon} title="Promotions" color="green" />
       </div>
       <div className="emailList-list">
-        {email.map((el) => {
+        {emailL.map((el) => {
           <EmailRow
             title={el.to}
             subject={el.subject}
